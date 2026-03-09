@@ -1,3 +1,7 @@
+/* Write a program that takes initial velocity (u), time (t), and acceleration (a) as integer inputs from the user. Calculate the displacement (s) using the equation of motion:
+s = ut + ½at²
+Display the result as a decimal value. */
+
 import java.io.*;
 
 class Q3 {
