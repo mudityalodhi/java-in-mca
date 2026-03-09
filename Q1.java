@@ -1,3 +1,6 @@
+/* Write a program that takes a user's age and gender as input. If the user is female and 18 or above, she is eligible to vote. If the user is male, he must be 21 or above to be eligible. Anyone below 18 is not eligible.
+*/
+
 import java.io.*;
 
 class Q1 {
@@ -26,7 +29,7 @@ class Q1 {
             } else {
                 System.out.println("Invalid gender entered.");
             }
-            
+
         } else {
             System.out.println("Sorry, you have to wait.");
         }

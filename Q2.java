@@ -1,3 +1,13 @@
+/* 
+Write a program that takes electricity units consumed by a user as input and calculates the total bill based on the following slab rates:
+•	0–100 units → ₹5.60 per unit
+•	101–200 units → ₹6.23 per unit
+•	201–300 units → ₹7.20 per unit
+•	Above 300 units → ₹9.80 per unit
+
+A fixed surcharge of ₹0.42 and a meter charge of ₹105.00 should also be added to the final bill. If units entered are negative, display an error message.
+*/
+
 import java.io.*;
 
 class Q2 {
