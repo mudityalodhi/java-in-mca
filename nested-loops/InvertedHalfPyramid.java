@@ -1,21 +1,16 @@
 import java.util.Scanner;
 
-public class P1 {
-
+public class InvertedHalfPyramid {
     public static void main(String[] args) {
-        int n;
 
         System.out.print("Enter n: ");
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
+        int n = sc.nextInt();
 
+        // Inverted Half Pyramid
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
-
-            for (int k = i; k >= 1; k--) {
-                System.out.print(k);
+            for (int j = n; j >= i; j--) {
+                System.out.print("*");
             }
             System.out.println();
         }

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be3f07ca-4e2d-483b-bb23-3cab2179c097" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nested-loops/P3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nested-loops/P4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/DataTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/Questions.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3B22KQF6bwN9duyxFXRQSvdYAvV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.P3.executor": "Run",
+    "Application.P4.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.P1">
+    <configuration name="HalfPyramidPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HalfPyramidPattern" />
+      <module name="java-mca" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvertedHalfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InvertedHalfPyramid" />
+      <module name="java-mca" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1" />
+      <module name="java-mca" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P1" />
+        <item itemvalue="Application.InvertedHalfPyramid" />
+        <item itemvalue="Application.HalfPyramidPattern" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be3f07ca-4e2d-483b-bb23-3cab2179c097" name="Changes" comment="" />
+      <created>1773672782345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773672782345</updated>
+    </task>
+    <servers />
+  </component>
+</project>
