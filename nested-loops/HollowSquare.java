@@ -23,3 +23,10 @@ public class HollowSquare {
         sc.close();
     }
 }
+
+/*
+ ****
+ *  *
+ *  *
+ ****
+ */

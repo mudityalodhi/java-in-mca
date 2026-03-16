@@ -1,22 +1,23 @@
 import java.util.Scanner;
 
-public class ReverseNumberHalfPyramid {
-
+public class InvertedFullStarPyramid {
     public static void main(String[] args) {
-        int n;
-
         System.out.print("Enter n: ");
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
+        int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n - i; j++) {
+
+            //spaces
+            for (int j = 1; j <= i - 1; j++) {
                 System.out.print(" ");
             }
 
-            for (int k = i; k >= 1; k--) {
-                System.out.print(k);
+            //stars
+            for (int j = 1; j <= 2 * (n - i) + 1; j++) {
+                System.out.print("*");
             }
+
             System.out.println();
         }
 
@@ -24,9 +25,9 @@ public class ReverseNumberHalfPyramid {
     }
 }
 
-/*
-      1
-     21
-    321
-   4321
- */
+
+//     *******
+//      *****
+//       ***
+//        *
+

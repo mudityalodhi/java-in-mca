@@ -18,3 +18,9 @@ public class HalfPyramidPattern {
         sc.close();
     }
 }
+
+
+// *
+// **
+// ***
+// ****
