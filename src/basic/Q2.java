@@ -1,4 +1,4 @@
-/* 
+package basic;/*
 Write a program that takes electricity units consumed by a user as input and calculates the total bill based on the following slab rates:
 •	0–100 units → ₹5.60 per unit
 •	101–200 units → ₹6.23 per unit

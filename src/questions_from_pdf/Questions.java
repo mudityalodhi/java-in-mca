@@ -1,3 +1,5 @@
+package questions_from_pdf;
+
 import java.util.Scanner;
 
 public class Questions {
