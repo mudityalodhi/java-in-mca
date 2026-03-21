@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be3f07ca-4e2d-483b-bb23-3cab2179c097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nested-loops/FullNumberPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nested-loops/InvertedFullStarPyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ques/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ques/ques.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nested-loops/HalfPyramidPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/nested-loops/HalfPyramidPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nested-loops/HollowSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/nested-loops/HollowSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nested-loops/InvertedHalfPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/nested-loops/InvertedHalfPyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nested-loops/ReverseNumberHalfPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/nested-loops/ReverseNumberHalfPyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-mca/P1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/Q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/Q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/Q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mca.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3B22KQF6bwN9duyxFXRQSvdYAvV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,17 +48,19 @@
     "Application.P1.executor": "Run",
     "Application.P3.executor": "Run",
     "Application.P4.executor": "Run",
+    "Application.Questions.executor": "Run",
     "Application.ReverseNumberHalfPyramid.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InvertedFullStarPyramid">
+  <component name="RunManager" selected="Application.Questions">
     <configuration name="FullNumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FullNumberPyramid" />
       <module name="java-mca" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumberHalfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseNumberHalfPyramid" />
+    <configuration name="Questions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Questions" />
       <module name="java-mca" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Questions" />
         <item itemvalue="Application.InvertedFullStarPyramid" />
         <item itemvalue="Application.FullNumberPyramid" />
         <item itemvalue="Application.InvertedHalfPyramid" />
         <item itemvalue="Application.HalfPyramidPattern" />
-        <item itemvalue="Application.ReverseNumberHalfPyramid" />
       </list>
     </recent_temporary>
   </component>
