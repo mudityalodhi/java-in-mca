@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be3f07ca-4e2d-483b-bb23-3cab2179c097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ques/Questions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ques/ques.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/Q1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/Q2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/Q3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-mca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mca.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/FullNumberPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/Q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/Q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/Q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/Questions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-mca/ques.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/questions_from_pdf/Questions3to10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/questions_from_pdf/Questions3to10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": true
+}]]></component>
   <component name="ProjectId" id="3B22KQF6bwN9duyxFXRQSvdYAvV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +52,7 @@
     "Application.P3.executor": "Run",
     "Application.P4.executor": "Run",
     "Application.Questions.executor": "Run",
+    "Application.Questions3to10.executor": "Run",
     "Application.ReverseNumberHalfPyramid.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,16 +64,14 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Questions">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\muditya_java\java-mca\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Questions3to10">
     <configuration name="FullNumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FullNumberPyramid" />
-      <module name="java-mca" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HalfPyramidPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HalfPyramidPattern" />
       <module name="java-mca" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,15 +98,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Questions3to10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions_from_pdf.Questions3to10" />
+      <module name="java-mca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="questions_from_pdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Questions3to10" />
         <item itemvalue="Application.Questions" />
         <item itemvalue="Application.InvertedFullStarPyramid" />
         <item itemvalue="Application.FullNumberPyramid" />
         <item itemvalue="Application.InvertedHalfPyramid" />
-        <item itemvalue="Application.HalfPyramidPattern" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
