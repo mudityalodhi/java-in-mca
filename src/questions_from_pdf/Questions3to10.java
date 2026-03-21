@@ -2,7 +2,7 @@ package questions_from_pdf;
 
 import java.util.Scanner;
 
-public class Questions {
+public class Questions3to10 {
     // Q3. To input a number and print whether the number is odd or even.
     static void oddOrEven(int n) {
         if (n % 2 == 0) {
