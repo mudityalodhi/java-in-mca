@@ -103,21 +103,31 @@ public class Questions3to10 {
     }
 
     // Q10. WAP to find the factors of a given number.
+    static void factors(int n) {
+        System.out.print("Factors of " + n + " = ");
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
 
+    static void factorsOptimized(int n) {
+        System.out.print("Factors of " + n + " = ");
+
+        for (int i = 1; i * i <= n; i++) {
+            if (n % i == 0) {
+                System.out.print(i + " ");
+
+                if (i != n / i) {  // avoid duplicate
+                    System.out.print((n / i) + " ");
+                }
+            }
+        }
+    }
 
     public static void main(String[] args) {
-//         System.out.print("Enter a number : ");
-//         Scanner sc = new Scanner(System.in);
-//         int n = sc.nextInt();
-//
-//         isPrime(n);
-//         oddOrEven(n);
-//         primeNumbers1to50();
-//        simpleInterest(100, 7.5, 3);
-//        compoundInterest(100, 7.5, 3);
-//        System.out.println(isPerfect(6));
-//        System.out.println(isPerfect(45));
-//        factorial(5);
-//        factorial(6);
+
+
     }
 }

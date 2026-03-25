@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class FullNumberPyramid {
     public static void main(String[] args) {
+
         System.out.print("enter n : ");
 
         Scanner sc = new Scanner(System.in);
