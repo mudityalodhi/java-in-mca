@@ -3,21 +3,47 @@ package questions_from_pdf;
 public class Questions11to15 {
 
     // Q11. Generate a Fibonacci series.
-    static void fibonacciSeries() {
-        int curr = 0, next = 1;
-        System.out.println(curr);
+    static void fibonacciSeries(int n) {
+        int a = 0, b = 1;
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(a + " ");
+            int next = a + b;
+            a = b;
+            b = next;
+        }
     }
 
     // Q12. To input and check whether the number is a Magic number or not. (Sum of digits of
-    // that number should be equal to 1. Example 127 = 1+2+7 = 10 =1+0 = 1.)
+    // that number should be equal to 1. Example 127 = 1+2+7 = 10 = 1+0 = 1.)
     static boolean isMagicNumber(int n) {
-        return true;
+
+        while (n > 9) { // keep reducing until a single digit
+            int sum = 0;
+
+            while (n > 0) {
+                int digit = n % 10;
+                sum += digit;
+                n /= 10;
+            }
+            n = sum; // update n with new sum
+        }
+
+        return (n == 1);
     }
 
-    // Q13. To input and check whether the number is Armstrong number or not. (Cubic sum of
-    // digit equals to that number. Example 153 = 12 + 52+32 = 153 )
+    // Q13. To input and check whether the number is Armstrong number or not. (Sum of the cube of each digit equals the original number. Example 153 = 1^3+5^3+3^3 = 1+125+27 = 153 )
     static boolean isArmstrongNumber(int n) {
-        return true;
+        int org = n;
+        int sum = 0;
+
+        while (n > 0) {
+            int digit = n % 10;
+            sum += digit * digit * digit;
+            n /= 10;
+        }
+
+        return (sum == n);
     }
 
     // Q14. To input and check whether the number is Automorphic or not. (Number which
@@ -45,6 +71,10 @@ public class Questions11to15 {
 //        System.out.println("Rectangle : " + areaOfRectangle(5, 7) + " unit sq.");
 //        System.out.println("Rectangle : " + areaOfSquare(5) + " unit sq.");
 
+//        System.out.println(isArmstrongNumber(6));
+//        System.out.println(isArmstrongNumber(153));
+//        System.out.println(isArmstrongNumber(343));
 
+        fibonacciSeries(12);
     }
 }
